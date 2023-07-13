@@ -30,7 +30,7 @@ const userSchema = mongoose.Schema(
       {
         orgId: {
           type: mongoose.Schema.Types.ObjectId,
-          ref: "Organization",
+          ref: "Organizations",
         },
         role: {
           type: String,
