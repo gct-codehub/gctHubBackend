@@ -12,12 +12,10 @@ const orgSchema = mongoose.Schema(
     roles: [
       {
         accessNumber: {
-          type: Number,
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Access",
         },
         roleName: {
-          type: String,
-        },
-        access: {
           type: String,
         },
       },
