@@ -10,11 +10,11 @@ const postSchema = mongoose.Schema(
     },
     orgId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Organization",
+      ref: "Organizations",
     },
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Organization",
+      ref: "Users",
     },
     reactions: {
       type: String,
