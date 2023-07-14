@@ -15,12 +15,6 @@ const orgSchema = mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             ref: "Access",
         },
-        users:[
-          {
-            type:mongoose.Schema.Types.ObjectId,
-            ref:"Users"
-          }
-        ],
         roleName: {
           type: String,
         },
