@@ -14,6 +14,7 @@ const accessSchema = mongoose.Schema(
     deletePost: {
       type: Boolean,
     },
+
     createRole: {
       type: Boolean,
     },
@@ -23,6 +24,7 @@ const accessSchema = mongoose.Schema(
     deleteRole: {
       type: Boolean,
     },
+    
     createOrg: {
       type: Boolean,
     },
