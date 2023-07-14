@@ -9,11 +9,9 @@ const userSchema = mongoose.Schema(
     mailId: {
       type: String,
       required: true,
-      unique: true,
     },
     rollNum: {
       type: String,
-      required: true,
     },
     department: {
       type: String,
